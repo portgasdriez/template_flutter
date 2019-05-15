@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248406978786",
+    "firebase_url": "https://tourguide-d5476.firebaseio.com",
+    "project_id": "tourguide-d5476",
+    "storage_bucket": "tourguide-d5476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248406978786:android:0ef697d1c4aa641f",
+        "android_client_info": {
+          "package_name": "com.example.template_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248406978786-4ur9t4ho305q74udt2nlleid06tbie5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLotWqNTL2ou5DRwBCfEj2uyXuo5K9NxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248406978786-4ur9t4ho305q74udt2nlleid06tbie5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
