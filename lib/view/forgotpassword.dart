@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:template_flutter/login.dart';
+import 'package:template_flutter/view/login.dart';
 import 'package:template_flutter/stacked_icon.dart';
-import 'home.dart';
+import 'package:template_flutter/view/home.dart';
 
 void main() => runApp(TemplateFlutter());
 

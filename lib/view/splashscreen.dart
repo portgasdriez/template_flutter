@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:template_flutter/stacked_icon.dart';
-import 'package:template_flutter/login.dart';
+import 'package:template_flutter/view/login.dart';
 
 void main(){
   runApp(

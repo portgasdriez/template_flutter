@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'fragment/event_fragment.dart';
+import 'fragment/news_fragment.dart';
+import 'fragment/profile_fragment.dart';
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => new _HomePageState();
@@ -17,22 +21,34 @@ class _HomePageState extends State<HomePage> {
         onTap: (int index){
           setState((){
             _bottomNavIndex = index;
+            switch (index) {
+              case 0:
+                return new ProfileFragment();
+              case 1:
+                return new NewsFragment();
+              case 2:
+                return new EventFragment();
+
+              default:
+                return new Text("Error");
+            }
 
           });
         },
 
         items: [
           new BottomNavigationBarItem(
-              title: new Text(''),
+              title: new Text('Profile'),
               icon: new Icon(Icons.account_circle)
+
           ),
           new BottomNavigationBarItem(
-              title: new Text(''),
-              icon: new Icon(Icons.message)
+              title: new Text('News'),
+              icon: new Icon(Icons.airplay)
           ),
           new BottomNavigationBarItem(
-              title: new Text(''),
-              icon: new Icon(Icons.settings)
+              title: new Text('Event'),
+              icon: new Icon(Icons.event)
           )
 
         ],
